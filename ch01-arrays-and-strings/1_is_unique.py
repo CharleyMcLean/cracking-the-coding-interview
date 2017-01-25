@@ -27,13 +27,13 @@ def is_unique(chars):
 def is_unique_alt(chars):
     """Function to determine if a string has all unique characters,
     using additional data structures.
-        >>> is_unique('Leila')
+        >>> is_unique_alt('Leila')
         False
-        >>> is_unique('Alex')
+        >>> is_unique_alt('Alex')
         True
-        >>> is_unique('')
+        >>> is_unique_alt('')
         True
-        >>> is_unique('I am a')
+        >>> is_unique_alt('I am a')
         False
     """
     if not chars:
