@@ -1,52 +1,50 @@
-# Fun with Random.org
+# Cracking the Coding Interview
 
-Random.org is a web front-end to an atmospheric noise sensor, which can give us pretty good random numbers. It's the reverse from a noise cancelling filter, since it cancels everything BUT the noise. Weather conditions, solar flares, a full-moon can have little impact on this, since it focuses on getting the purest white noise possible from their hardware sensors. 
+Interview questions from [Cracking the Coding Interview](https://smile.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8&qid=1485367607&sr=1-1&keywords=cracking+the+coding+interview).  The book is presented in Java, however I completed the questions using Python.
 
-Completed:  Use the HTTP API for [random.org](https://www.random.org/clients/http/) to get truly random numbers. Look out for the guidelines, or you may get banned!
 
-Future tasks:  Using these random numbers create the following:
+##Contents
+* [Tech Stack](#technologies)
+* [Features](#features)
+* [Chapters](#chapters)
 
-- An RGB bitmap picture of 128x128 pixels
-
-- A white noise WAV sound sample of 3 seconds
-
-- An RSA key pair
 
 ## <a name="technologies"></a>Technologies
-Tech Stack: Python<br/>
-APIs: Random.org<br/>
+Tech Stack:  Python<br/>
 
-## <a name="features"></a>Features
 
-Generate a list of random numbers using Random.org API.
-<!-- ![](https://github.com/CharleyMcLean/Believe/blob/master/static/img/screenshot-landing-page.png?raw=true) -->
+## <a name="chapters"></a>Chapters
+Chapter 1:  [Arrays and Strings](https://github.com/CharleyMcLean/cracking-the-coding-interview/tree/master/ch1-arrays-string)<br/>
+Chapter 2:  [Linked Lists]()<br/>
+Chapter 3:  [Stacks and Queues]()<br/>
+Chapter 4:  [Trees and Graphs]()<br/>
+Chapter 5:  [Bit Manipulation]()<br/>
+Chapter 6:  [Math and Logic Problems]()<br/>
+Chapter 7:  [Object-Oriented Design]()<br/>
+Chapter 8:  [Recursion and Dynamic Programming]()<br/>
+Chapter 9:  [System Design and Scalability]()<br/>
+Chapter 10:  [Sorting and Searching]()<br/>
+Chapter 11:  [Testing]()<br/>
+Chapter 12:  [C and C++]()<br/>
+Chapter 13:  [Java]()<br/>
+Chapter 14:  [Databases]()<br/>
+Chapter 15:  [Threads and Locks]()<br/>
+Chapter 16:  [Moderate]()<br/>
+Chapter 17:  [Hard]()<br/>
 
 
 ## <a name="install"></a>Installation
 
-To run the random number generator:
+To run the individual files:
 
 Clone or fork this repo:
 
 ```
-https://github.com/CharleyMcLean/random-number-generator.git
+https://github.com/CharleyMcLean/cracking-the-coding-interview
 ```
 
-Create and activate a virtual environment inside your Believe directory:
+Run the file (doctests will also run):
 
 ```
-virtualenv env
-source env/bin/activate
-```
-
-Install the dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-Run the app:
-
-```
-python -i random.py
+python -i file_name.py
 ```
