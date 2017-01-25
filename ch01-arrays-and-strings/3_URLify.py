@@ -27,14 +27,14 @@ def urlify(chars):
     return urlified
 
 
-def urlify_alt(chars):
+def urlify_alt1(chars):
     """Function to replace each space with '%20'.  Uses join with list,
     instead of concatenating string on each iteration to save memory space.
-        >>> urlify_alt("Mr John Smith")
+        >>> urlify_alt1("Mr John Smith")
         'Mr%20John%20Smith'
-        >>> urlify_alt("")
+        >>> urlify_alt1("")
         ''
-        >>> urlify_alt(" ")
+        >>> urlify_alt1(" ")
         '%20'
     """
     urlified = []
@@ -43,6 +43,24 @@ def urlify_alt(chars):
             char = "%20"
         urlified.append(char)
 
+    return "".join(urlified)
+
+
+def urlify_alt2(chars):
+    """Function to replace each space with '%20'.
+        >>> urlify_alt2("Mr John Smith")
+        'Mr%20John%20Smith'
+        >>> urlify_alt2("")
+        ''
+        >>> urlify_alt2(" ")
+        '%20'
+    """
+    urlified = list(chars)
+    if urlified:
+        for i in range(len(urlified)):
+            if urlified[i] == " ":
+                urlified[i] = "%20"
+    # If chars is None, this will still return the correct answer
     return "".join(urlified)
 
 
