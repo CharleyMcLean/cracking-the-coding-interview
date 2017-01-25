@@ -5,7 +5,6 @@ Interview questions from [Cracking the Coding Interview](https://smile.amazon.co
 
 ##Contents
 * [Tech Stack](#technologies)
-* [Features](#features)
 * [Chapters](#chapters)
 
 
