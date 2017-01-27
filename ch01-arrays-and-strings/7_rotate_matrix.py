@@ -39,13 +39,13 @@ def rotate_image(pixel_matrix):
 def rotate_image_in_place(pixel_matrix):
     """Function which takes in an NxN array representing an image of pixels.
     Image matrix is rotated clockwise by 90 degrees and changed in place.
-        >>> rotate_image([])
+        >>> rotate_image_in_place([])
         []
-        >>> rotate_image(['a'])
+        >>> rotate_image_in_place(['a'])
         ['a']
-        >>> rotate_image([['a', 'b'], ['c', 'd']])
+        >>> rotate_image_in_place([['a', 'b'], ['c', 'd']])
         [['c', 'a'], ['d', 'b']]
-        >>> rotate_image([['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']])
+        >>> rotate_image_in_place([['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']])
         [['g', 'd', 'a'], ['h', 'e', 'b'], ['i', 'f', 'c']]
     """
     pass
