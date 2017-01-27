@@ -39,7 +39,7 @@ To run the individual files:
 Clone or fork this repo:
 
 ```
-https://github.com/CharleyMcLean/cracking-the-coding-interview
+https://github.com/CharleyMcLean/cracking-the-coding-interview.git
 ```
 
 Run the file (doctests will also run):
